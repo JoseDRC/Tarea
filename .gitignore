@@ -21,3 +21,35 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package tarea.pkg1;
+import javax.swing.JOptionPane;
+/*
+ *
+ * @author Jose Daniel
+ */
+public class Tarea1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    String nombre = "";
+    int salario1 = 530000;
+    int salario2 = 70000;
+    int salario3 = 600000;
+   
+
+    nombre = JOptionPane.showInputDialog("Digite su nombre");
+    JOptionPane.showMessageDialog(null, "Estimad@ " + nombre + " el salario de "
+    + "este mes se desgloso de la siguiente manera:\n "
+    + "Salario neto: "+salario1+",\n "
+    + "deducciones: "+salario2+" \n Salario bruto: "+salario3+"");
+   
+
+          
+}
+}
